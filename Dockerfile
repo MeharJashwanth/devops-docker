@@ -2,7 +2,7 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY sonnu.py sonnu.jpg /app
+COPY app.py /app
 
 RUN pip install flask
 
